@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Portfolio</title>
+    <style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#services {
+    padding: 50px 20px;
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    flex: 1 1 calc(33.333% - 40px);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .service {
+        flex: 1 1 100%;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="files/others_link/capacités.html">Capacités</a></li>
+                <li><a href="files/others_link/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1><strong>Présentation</strong></h1>
+
+        <p><strong>Je me présente je suis Alexis, j'ai 17 ans et je suis bientôt élève en BTS SIO SLAM</strong></p>
+
+        <p><strong>Depuis ma tendre enfance j'ai été passionné par l'informatique</strong></p>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Alexis BARATTE Tous Droits Reservés.</p>
+    </footer>
+</body>
+</html>
